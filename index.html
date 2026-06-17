@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rute Uamusse | Desenvolvedora Web</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#home" class="logo"><i class="fas fa-code"></i> <span>RUTE</span> UAMUSSE</a>
+        
+        <nav class="nav-links">
+            <a href="#home"><i class="fas fa-home"></i> <span data-i18n="nav-home">Inicio</span></a>
+            <a href="#sobre"><i class="fas fa-user-circle"></i> <span data-i18n="nav-about">Sobre</span></a>
+            <a href="#especialidades"><i class="fas fa-code"></i> <span data-i18n="nav-stack">Especialidades</span></a>
+            <a href="#projetos"><i class="fas fa-briefcase"></i> <span data-i18n="nav-projects">Projetos</span></a>
+            <a href="#contato"><i class="fas fa-envelope"></i> <span data-i18n="nav-contact">Contato</span></a>
+        </nav>
+
+        <div class="header-actions">
+            <a href="#" id="language-toggle" class="lang-btn">
+                <i class="fas fa-language"></i> EN
+            </a>
+            <button class="theme-toggle" aria-label="Alternar tema"><i class="fas fa-moon"></i></button>
+            <button class="hamburger" id="hamburger" aria-label="Menu mobile"><span></span><span></span><span></span></button>
+        </div>
+          
+    </header>
+    <main id="home">
+        <div class="content-left">
+            <h1 data-i18n="hero-title">Desenvolvedora Web</h1>
+            
+<p data-i18n="hero-desc">Transformo ideias em sistemas web reais e escaláveis, com foco em PHP Laravel, React e Node.js.</p>
+            <div class="social-links">
+                <a href="https://github.com/Rute97" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/rute-mateus-uamusse-b72a2b395" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/Rutemateusuamusse" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://facebook.com/Rute Mateus Uamusse" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+            <a href="#contato" class="cta-button" data-i18n="hero-cta">Vamos trabalhar juntos?</a>
+        </div>
+
+        <div class="content-right">
+            <div class="photo-container">
+                <img src="Foto-Profissional.png" alt="Rute Uamusse" title="Rute Uamusse" loading="lazy">
+            </div>
+        </div>
+    </main>
+
+    <section id="sobre" class="about-section">
+        <h2><span class="detail"><i class="fas fa-user-circle"></i></span> <span data-i18n="about-title">Sobre mim</span></h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p data-i18n="about-p1">Desenvolvedora Web especializada na criação de sistemas modernos, 
+                                        aplicações web dinâmicas e soluções escaláveis. Possui conhecimentos 
+                                        sólidos em desenvolvimento back-end com PHP e desenvolvimento 
+                                        front-end com HTML, CSS e JavaScript, com foco em performance, 
+                                        segurança e experiência do utilizador. </p>
+             <!---Formacao academica-->
+                <div class="formacao">
+                   <h3 data-i18n="formation-1">FORMAÇÃO ACADÉMICA </h3>
+                     <ul>
+                        <li><i class="fas fa-certificate"></i> <span data-i18n="formacao-2">Concluiu o Ensino Médio (12ª Classe) na Escola Secundária Mulovote em 2023. (2023)</span></li>
+                        <li><i class="fas fa-graduation-cap"></i> <span data-i18n="formacao-1">Formou-se em Informática e Programação Web no Instituto Médio Politécnico de Engenharias e Negócios em 2025.(2024-2025)</span></li>
+                          
+                    </ul>
+                </div>
+            </div>
+            <div class="about-box">
+                <h3 data-i18n="deliver-title">O que entrego:</h3>
+                <ul>
+                    <li><i class="fas fa-check"></i> <span data-i18n="deliver-1">Sistemas escaláveis e manuteníveis</span></li>
+                    <li><i class="fas fa-check"></i> <span data-i18n="deliver-2">Interfaces modernas e responsivas</span></li>
+                    <li><i class="fas fa-check"></i> <span data-i18n="deliver-3">APIs seguras e de alta performance</span></li>
+                    <li><i class="fas fa-check"></i> <span data-i18n="deliver-4">Soluções alinhadas ao negócio</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="especialidades" class="especialidade">
+        <h2><span class="detail"><i class="fas fa-code"></i></span> <span data-i18n="stack-title">Stack Tecnológica</span></h2>
+        <div class="spec-grid">
+            <div class="spec-card">
+                <div class="spec-icon-wrapper">
+                    <div class="spec-icon"><i class="fab fa-html5"></i></div>
+                </div>
+                <h3 data-i18n="spec-fe">Front-end</h3>
+                <p class="spec-desc" data-i18n="spec-fe-desc">HTML, Javascrip,Tailwind, animações fluidas e interfaces responsivas.</p>
+                <div class="spec-tags">
+                    <span class="spec-tag">HTML</span>
+                    <span class="spec-tag">Javacript</span>
+                    <span class="spec-tag">Tailwind</span>
+                </div>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon-wrapper">
+                    <div class="spec-icon"><i class="fab fa-laravel"></i></div>
+                </div>
+                <h3 data-i18n="spec-be">Back-end PHP</h3>
+                <p class="spec-desc" data-i18n="spec-be-desc">Laravel, APIs RESTful, autenticação JWT, queues e arquitetura limpa.</p>
+                <div class="spec-tags">
+                    <span class="spec-tag">Laravel</span>
+                    <span class="spec-tag">REST API</span>
+                    <span class="spec-tag">JWT</span>
+                </div>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon-wrapper">
+                    <div class="spec-icon"><i class="fab fa-node-js"></i></div>
+                </div>
+                <h3 data-i18n="spec-node">Node.js</h3>
+                <p class="spec-desc" data-i18n="spec-node-desc">Express, microsserviços, WebSockets e aplicações em tempo real.</p>
+                <div class="spec-tags">
+                    <span class="spec-tag">Express</span>
+                    <span class="spec-tag">WebSockets</span>
+                    <span class="spec-tag">Real-time</span>
+                </div>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon-wrapper">
+                    <div class="spec-icon"><i class="fab fa-docker"></i></div>
+                </div>
+                <h3 data-i18n="spec-devops">DevOps</h3>
+                <p class="spec-desc" data-i18n="spec-devops-desc">Docker, CI/CD, deploy em ambientes cloud e consistência entre dev/prod.</p>
+                <div class="spec-tags">
+                    <span class="spec-tag">Docker</span>
+                    <span class="spec-tag">CI/CD</span>
+                    <span class="spec-tag">Cloud</span>
+                </div>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon-wrapper">
+                    <div class="spec-icon"><i class="fas fa-database"></i></div>
+                </div>
+                <h3 data-i18n="spec-db">Bancos de Dados</h3>
+                <p class="spec-desc" data-i18n="spec-db-desc">MySQL, PostgreSQL, MongoDB – modelagem, índices e queries otimizadas.</p>
+                <div class="spec-tags">
+                    <span class="spec-tag">SQL</span>
+                    <span class="spec-tag">NoSQL</span>
+                    <span class="spec-tag">PostgreSQL</span>
+                </div>
+            </div>
+            <div class="spec-card">
+                <div class="spec-icon-wrapper">
+                    <div class="spec-icon"><i class="fas fa-shield-alt"></i></div>
+                </div>
+               <h3 data-i18n="spec-sec">Segurança</h3>
+                <p class="spec-desc" data-i18n="spec-sec-desc">OWASP Top 10, autenticação segura, validação de dados e proteção contra ataques comuns.</p>
+                <div class="spec-tags">
+                    <span class="spec-tag">OWASP</span>
+                    <span class="spec-tag">Validação</span>
+                    <span class="spec-tag">Autenticação</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projetos" class="projects-section">
+    <h2><span class="detail"><i class="fas fa-briefcase"></i></span> <span data-i18n="projects-title">Projetos Recentes</span></h2>
+
+    <div class="projects-container">
+
+        <!-- 1º Projeto: Conteúdo ESQUERDA | Imagem DIREITA -->
+        <div class="project-row">
+            <div class="project-content">
+                <h3 data-i18n="proj-lib-title">Biblioteca Online de Livros</h3>
+                <p data-i18n="proj-lib-desc">Plataforma completa desenvolvida com PHP + MySQL. Inclui busca avançada, reserva de livros e painel administrativo.</p>
+                <a href="#" class="btn-project"><span data-i18n="proj-view">Ver Projeto</span> <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="project-image">
+                <img src="Biblioteca.png" alt="Biblioteca Online" loading="lazy">
+            </div>
+        </div>
+
+        <!-- 2º Projeto: Imagem ESQUERDA | Conteúdo DIREITA -->
+        <div class="project-row reverse">
+           
+            <div class="project-content">
+                <h3 data-i18n="proj-api-title">API de E-commerce</h3>
+                <p data-i18n="proj-api-desc">API RESTful construída com Laravel, autenticação JWT e integração com WhatsApp Business API.</p>                      
+                <a href="#" class="btn-project"><span data-i18n="proj-view">Ver Projeto</span> <i class="fas fa-arrow-right"></i></a>
+            </div>
+             <div class="project-image">
+                <img src="Screenshot (219).png" alt="API E-commerce" loading="lazy">
+            </div>
+        </div>
+
+        <!-- 3º Projeto: Conteúdo ESQUERDA | Imagem DIREITA -->
+        <div class="project-row">
+            <div class="project-content">
+                <h3 data-i18n="proj-delivery-title">Aplicação de Delivery de Comida</h3>
+                <p data-i18n="proj-delivery-desc">Sistema completo de delivery feito em PHP Laravel. Inclui cadastro de restaurantes, cardápio dinâmico, integração de pagamentos e rastreio em tempo real.</p>
+                <a href="#" class="btn-project"><span data-i18n="proj-view">Ver Projeto</span> <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="project-image">
+                <img src="FestFood.png" alt="Aplicação de Delivery de Comida" loading="lazy">
+            </div>
+        </div>
+
+        <!-- 4º Projeto: Imagem ESQUERDA | Conteúdo DIREITA -->
+        <div class="project-row reverse">
+            
+            <div class="project-content">
+                <h3 data-i18n="proj-school-title">Plataforma Escolar de Informação</h3>
+                <p data-i18n="proj-school-desc">Plataforma educacional desenvolvida com Laravel para gestão escolar, incluindo alunos, professores e notas.</p>
+                <a href="#" class="btn-project"><span data-i18n="proj-view">Ver Projeto</span> <i class="fas fa-arrow-right"></i></a>
+            </div>
+             
+            <div class="project-image"> 
+                <img src="Site Escolar.png" alt="Site Escolar" loading="lazy"> 
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+    <section id="contato" class="contact-section">
+        <h2><span class="detail"><i class="fas fa-envelope"></i></span> <span data-i18n="contact-title">Vamos Trabalhar Juntos?</span></h2>
+        <p data-i18n="contact-desc">Estou aberta a projetos desafiadores, parcerias e novas oportunidades. Escolha a forma que preferir para entrar em contato!</p>
+        
+        <div class="contact-methods">
+            <a href="mailto:Ruthmateusuamusseuamusse@gmail.com" class="contact-card email-card" title="Enviar email">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h3>E-mail</h3>
+                <p>Ruthmateusuamusseuamusse@gmail.com</p>
+            </a>
+
+            <a href="https://wa.me/840430856" target="_blank" class="contact-card whatsapp-card" title="Conversar no WhatsApp">
+                <div class="contact-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <h3>WhatsApp</h3>
+                <p data-i18n="contact-wa-desc">Chat rápido e direto</p>
+            </a>
+
+            <a href="https://linkedin.com/in/rute-mateus-uamusse-b72a2b395" target="_blank" class="contact-card linkedin-card" title="Conectar no LinkedIn">
+                <div class="contact-icon">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <h3>LinkedIn</h3>
+                <p data-i18n="contact-li-desc">Veja meu perfil profissional</p>
+            </a>
+
+            <a href="https://github.com/Rute97" target="_blank" class="contact-card github-card" title="Ver projetos no GitHub">
+                <div class="contact-icon">
+                    <i class="fab fa-github"></i>
+                </div>
+                <h3>GitHub</h3>
+                <p data-i18n="contact-gh-desc">Explore meus projetos</p>
+            </a>
+        </div>
+
+        <div class="contact-cta">
+            <p class="contact-label" data-i18n="contact-fast-msg">Preferir enviar uma mensagem rápida?</p>
+            <a href="mailto:Ruthmateusuamusseuamusse@gmail.com" class="cta-button primary-btn">
+                <i class="fas fa-paper-plane"></i> <span data-i18n="contact-send">Enviar Mensagem</span>
+            </a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
